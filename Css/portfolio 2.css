@@ -381,7 +381,7 @@ section{
     color: var(--text-color);
     background:var(--main-color)
 }
-@media (max-width: 1480px){
+@media (max-width: 800px){
     header{
         padding: 12px 2.5%;
         transition: .1s;
@@ -393,7 +393,7 @@ section{
         padding:15px 3%
     }
 }
-@media(max-width: 1100px){
+@media(max-width: 800px){
     :root{
         --big-font:4rem;
         --h2-font:2.5rem;
@@ -409,7 +409,7 @@ section{
     }
     
 }
-@media (max-width:920px){
+@media (max-width: 800px){
     .about{
         grid-template-columns: 1fr;
     }
@@ -422,7 +422,7 @@ section{
         grid-template-columns: 1fr;
     }
 }
-@media (max-width:480px){
+@media (max-width: 800px){
     #menu-icon{
         display: block;
     }
@@ -453,7 +453,18 @@ section{
     .navlist .open{
         top: 100%;
     }
+    .service-content{
+        display: block;
+        width: 100%;
+    }
+    .service-content .box{
+        margin-bottom: 2rem;
+    }
+    .icons i{
+        margin-top: 2rem;
+    }
 
 }
+
 
 
